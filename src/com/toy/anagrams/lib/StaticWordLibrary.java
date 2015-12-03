@@ -34,10 +34,6 @@
 
 package com.toy.anagrams.lib;
 
-/**
- * Implementation of the logic for the Anagram Game application.
- */
-
 //Heredamos StaticWordLibrary de WorldLibrary
 public final class StaticWordLibrary extends WordLibrary {
 
@@ -52,17 +48,7 @@ public final class StaticWordLibrary extends WordLibrary {
         "disambiguate",
         "dynamic",
         "encapsulation",
-        "equivalent",
-        "expression",
-        "facilitate",
-        "fragment",
-        "hexadecimal",
-        "implementation",
-        "indistinguishable",
-        "inheritance",
-        "internet",
-        "java",
-        "localization",
+         "localization",
         "microprocessor",
         "navigation",
         "optimization",
@@ -77,6 +63,16 @@ public final class StaticWordLibrary extends WordLibrary {
         "lexical",
         "likewise",
         "management",
+        "equivalent",
+        "expression",
+        "facilitate",
+        "fragment",
+        "hexadecimal",
+        "implementation",
+        "indistinguishable",
+        "inheritance",
+        "internet",
+        "java",
         "manipulate",
         "mathematics",
         "hotjava",
