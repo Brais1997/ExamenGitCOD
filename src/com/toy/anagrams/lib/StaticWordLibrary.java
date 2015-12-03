@@ -37,14 +37,12 @@ package com.toy.anagrams.lib;
 /**
  * Implementation of the logic for the Anagram Game application.
  */
-final class StaticWordLibrary extends WordLibrary {
+
+//Heredamos StaticWordLibrary de WorldLibrary
+public final class StaticWordLibrary extends WordLibrary {
 
     private static final String[] WORD_LIST = {
         "abstraction",
-        "ambiguous",
-        "arithmetic",
-        "backslash",
-        "bitmap",
         "circumstance",
         "combination",
         "consequently",
@@ -85,6 +83,7 @@ final class StaticWordLibrary extends WordLibrary {
         "vertex",
         "unsigned",
         "traditional"};
+    
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
